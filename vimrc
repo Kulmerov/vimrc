@@ -414,7 +414,7 @@ call plug#begin('~/.vim/plugged')
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'pangloss/vim-javascript'
+"Plug 'pangloss/vim-javascript'
 
 " Initialize plugin system
 call plug#end()
