@@ -138,7 +138,10 @@ endif
 
 
 " Add a bit extra margin to the left
-set foldcolumn=1
+"set foldcolumn=1
+
+" Add line numbering
+set number
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -153,11 +156,11 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme monokai
 catch
 endtry
 
-set background=dark
+"set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
